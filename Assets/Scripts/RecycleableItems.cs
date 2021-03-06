@@ -14,6 +14,11 @@ public static class RecycleableItems
         Database.Add("glass", glass);
         Recycleable can = new Recycleable("can", true, "Blue Bin");
         Database.Add("can", can);
+        Recycleable JarLid = new Recycleable ("jar lid", true, "Blue Bin");
+        Database.Add("jar lid", JarLid);
+        Recycleable paintcan = new Recycleable("paint can", true, "Blue Bin");
+        Database.Add("paint can", paintcan);
+        Recycleable hairspray = new Recycleable("hairspray can", true, "Blue Bin");
 
 
         return Database;
