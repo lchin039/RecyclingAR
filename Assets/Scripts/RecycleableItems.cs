@@ -7,7 +7,28 @@ public static class RecycleableItems
     public static Hashtable build()
     {
         Hashtable Database = new Hashtable();
-        Recycleable paper = new Recycleable("paper", true, "Paper Recycle");
+
+        Recycleable glass = new Recycleable("glass", true, "Blue Bin");
+        Database.Add("glass", glass);
+        Recycleable can = new Recycleable("can", true, "Blue Bin");
+        Database.Add("can", can);
+        Recycleable JarLid = new Recycleable("jar lid", true, "Blue Bin");
+        Database.Add("jar lid", JarLid);
+        Recycleable paintcan = new Recycleable("paint can", true, "Blue Bin");
+        Database.Add("paint can", paintcan);
+        Recycleable hairspray = new Recycleable("hairspray can", true, "Blue Bin");
+        Database.Add("hairspray container", hairspray);
+        Recycleable yogurt = new Recycleable("yogurt contianer", true, "Blue Bin");
+        Database.Add("yogurt container", yogurt);
+        Recycleable milk = new Recycleable("milk carton", true, "Blue Bin");
+        Database.Add("milk carton", milk);
+        Recycleable juicebox = new Recycleable("juice box", true, "Blue Bin");
+        Database.Add("juicebox", juicebox);
+        Recycleable aluminumfoil = new Recycleable("aluminum foil", true, "Blue Bin");
+
+        Recycleable book = new Recycleable("book", true, "Black Bin");
+        Database.Add("book", book);
+        Recycleable paper = new Recycleable("paper", true, "Black Bin");
         Database.Add("paper", paper);
         return Database;
 
