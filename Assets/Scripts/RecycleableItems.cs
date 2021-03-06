@@ -7,7 +7,7 @@ public static class RecycleableItems
     public static Hashtable build()
     {
         Hashtable Database = new Hashtable();
-        Recycleable paper = new Recycleable("paper", true);
+        Recycleable paper = new Recycleable("paper", true, "Paper Recycle");
         Database.Add("paper", paper);
         return Database;
 

@@ -6,17 +6,18 @@ public class Recycleable
 {
     protected string name;
     protected bool recycle; 
-    protected int scene;
+    protected string scene;
 
-    public Recycleable(string name, bool recycle){
+    public Recycleable(string name, bool recycle, string scene){
         this.name = name;
         this.recycle = recycle; 
+        this.scene = scene;
     }
 
     public bool CanRecycle(){
         return recycle;
     }
-    public int GetScene(){
+    public string GetScene(){
         return scene;
     }
 
