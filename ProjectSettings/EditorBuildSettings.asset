@@ -6,9 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< Updated upstream
     path: Assets/Paper Recycle.unity
     guid: b7f87a400b6c8e845acbfde0e4c9f071
   - enabled: 1
     path: Assets/Manual Search Screen.unity
     guid: 307c23f713d9fd34eb7e408beecebde9
+=======
+    path: Assets/Manual Search Screen.unity
+    guid: 307c23f713d9fd34eb7e408beecebde9
+  - enabled: 1
+    path: Assets/Paper Recycle.unity
+    guid: b7f87a400b6c8e845acbfde0e4c9f071
+>>>>>>> Stashed changes
   m_configObjects: {}
