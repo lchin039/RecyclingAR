@@ -31,6 +31,12 @@ public static class RecycleableItems
         Database.Add("book", book);
         Recycleable paper = new Recycleable("paper", true, "Black Bin");
         Database.Add("paper", paper);
+
+        Recycleable coffeecup = new Recycleable("coffee cup", true, "Green Bin");
+        Recycleable papertowel = new Recycleable("paper towel", true, "Green Bin");
+
+        Recycleable cerealbox = new Recycleable("cereal box", false, "Garbage");
+        Recycleable candywrappings = new Recycleable("candy wrapping", false, "Garbage"); 
         return Database;
 
     }
