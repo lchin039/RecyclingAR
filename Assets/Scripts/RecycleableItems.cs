@@ -25,6 +25,7 @@ public static class RecycleableItems
         Recycleable juicebox = new Recycleable("juice box", true, "Blue Bin");
         Database.Add("juicebox", juicebox);
         Recycleable aluminumfoil = new Recycleable("aluminum foil", true, "Blue Bin");
+        Database.Add("aluminum foil", aluminumfoil);
 
         Recycleable book = new Recycleable("book", true, "Black Bin");
         Database.Add("book", book);
