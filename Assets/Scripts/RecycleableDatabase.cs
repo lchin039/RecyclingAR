@@ -2,15 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RecycleableDatabase : MonoBehaviour
-{
-    Recycleable[] Database = new Recycleable[1]; 
-    
-    Recycleable can = new Recycleable("Can", true);
+public static class RecycleableDatabase
+{ 
+        public static Hashtable Database = new Hashtable(); //creates the database
 
-    private void add ()
-    {
-        int size = 2;
-        print(size);
-    }
+        /*
+        Laura Chin
+        string -> Recycleable 
+        Returns the item associated with the inputed name or returns null is the item is not in the database
+        */
+        public static Recycleable Search(string key) 
+        {
+            Database = RecycleableItems.build();
+            try
+            {
+                Recycleable item = (Recycleable) Database[key];     
+                return item;           
+            }
+            catch 
+            {
+                
+                return null;
+            }
+
+        }
+        //public static void build()
+        //{
+           
+        //}
+
 }
