@@ -23,7 +23,7 @@ public static class RecycleableItems
         Recycleable milk = new Recycleable("milk carton", true, "Blue Bin");
         Database.Add("milk carton", milk);
         Recycleable juicebox = new Recycleable("juice box", true, "Blue Bin");
-        Database.Add("juicebox", juicebox);
+        Database.Add("juice box", juicebox);
         Recycleable aluminumfoil = new Recycleable("aluminum foil", true, "Blue Bin");
         Database.Add("aluminum foil", aluminumfoil);
 
