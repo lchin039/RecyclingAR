@@ -9,6 +9,10 @@ public class InputToText : MonoBehaviour
     public InputField SearchItem;
     public Text output;
 
+    private void Start() {
+        RecycleableDatabase.create();
+    }
+
     /*
     Laura Chin
     void -> void
@@ -33,7 +37,7 @@ public class InputToText : MonoBehaviour
         string destination;
         Recycleable item = RecycleableDatabase.Search(thing);
 
-        if(item != null && item.CanRecycle() == true)
+        if(item != null)
         {
             destination = item.GetScene();
             isRecycleable = "";
