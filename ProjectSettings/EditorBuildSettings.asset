@@ -6,9 +6,27 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/App Scenes/Paper Recycle.unity
+    path: Assets/Laura's Work/App Scenes/Paper Recycle.unity
     guid: b7f87a400b6c8e845acbfde0e4c9f071
   - enabled: 1
-    path: Assets/App Scenes/Manual Search Screen.unity
+    path: Assets/Laura's Work/App Scenes/Manual Search Screen.unity
     guid: 307c23f713d9fd34eb7e408beecebde9
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Blue Bin.unity
+    guid: 91cf65ffe0802124aa78cfcf6e01fe6d
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Unity Project Save 2.unity
+    guid: dbe1ad8d1ad3fba41937d7348669f1f6
+  - enabled: 0
+    path: Assets/Lean/GUI/Examples/01 Button.unity
+    guid: 627f04d1fd48ef845af1cb621b9fbbb3
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Black Bin.unity
+    guid: d9a3bcf32c7e9a349851b9a1eac890fb
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Green Bin.unity
+    guid: 277910e73a2dafc47b970e15e0016196
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Garbage.unity
+    guid: 76bb9fadf344dc349bbc0136cff13864
   m_configObjects: {}
