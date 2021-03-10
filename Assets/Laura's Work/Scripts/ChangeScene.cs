@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReturnButton : MonoBehaviour
+public class ChangeScene : MonoBehaviour
 {
-    public void ChangeScene()
+    public void ReturnButton()
     {
         string place = "Manual Search Screen";
         Go(place);

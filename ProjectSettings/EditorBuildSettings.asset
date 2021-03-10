@@ -29,4 +29,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Laura's Work/App Scenes/Garbage.unity
     guid: 76bb9fadf344dc349bbc0136cff13864
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Glass.unity
+    guid: 19d7d0db03c6510429ce2d66be498bb2
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Metal.unity
+    guid: b0949b9553630094c8f5ea15304e5c15
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Plastics.unity
+    guid: 653e8e5e576789849a18d4331a95874e
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Paper.unity
+    guid: b8a7d769face6e147bafe5700f90b745
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Carton.unity
+    guid: 13847418ff590a740a74dac9b0a51257
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Cardboard.unity
+    guid: a38d33300b70a7a4dba70389ee3ed373
   m_configObjects: {}
