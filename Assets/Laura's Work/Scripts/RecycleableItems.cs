@@ -26,6 +26,9 @@ public static class RecycleableItems
         Database.Add("juice box", juicebox);
         Recycleable aluminumfoil = new Recycleable("aluminum foil", true, "Blue Bin");
         Database.Add("aluminum foil", aluminumfoil);
+        Recycleable whippingcream = new Recycleable("whipping cream bottle", true, "Blue Bin");
+        Database.Add("whipping cream bottle", whippingcream);
+        
 
         Recycleable book = new Recycleable("book", true, "Black Bin");
         Database.Add("book", book);
@@ -41,6 +44,17 @@ public static class RecycleableItems
         Database.Add("cereal box", cerealbox);
         Recycleable candywrappings = new Recycleable("candy wrapping", false, "Garbage"); 
         Database.Add("candy wrapper", candywrappings); 
+        Recycleable ceramicplate = new Recycleable("ceramic plate", false, "Garbage");
+        Database.Add("ceramic plate", ceramicplate);
+        Recycleable windowpane = new Recycleable("window pane", false, "Garbage");
+        Database.Add("window pane", windowpane);
+        Recycleable styrofoam = new Recycleable("styrofoam", false, "Garbage");
+        Database.Add("styrofoam", styrofoam);
+        Recycleable plasticcups = new Recycleable("plastic cup", false, "Garbage");
+        Database.Add("plastic cup", plasticcups);
+        Recycleable plastictoy = new Recycleable("plastic toy", false, "Garbage");
+        Database.Add("plastic toy", plastictoy);
+
         return Database;
 
     }

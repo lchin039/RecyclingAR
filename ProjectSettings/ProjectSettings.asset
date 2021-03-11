@@ -661,10 +661,10 @@ PlayerSettings:
     m_VersionCode: 1
     m_VersionName: 
   apiCompatibilityLevel: 6
-  cloudProjectId: 
+  cloudProjectId: 1b525743-afe0-44a5-9d21-f4684caf5d24
   framebufferDepthMemorylessMode: 0
-  projectName: 
-  organizationId: 
+  projectName: Recycling AR (1)
+  organizationId: seonaidhair
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
