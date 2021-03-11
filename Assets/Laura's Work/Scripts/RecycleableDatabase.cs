@@ -6,6 +6,10 @@ public static class RecycleableDatabase
 { 
         public static Hashtable Database = new Hashtable(); //creates the database
 
+        public static void create() {
+           Database = RecycleableItems.build();
+        }
+
         /*
         Laura Chin
         string -> Recycleable 
@@ -13,7 +17,7 @@ public static class RecycleableDatabase
         */
         public static Recycleable Search(string key) 
         {
-            Database = RecycleableItems.build();
+            //Database = RecycleableItems.build();
             try
             {
                 Recycleable item = (Recycleable) Database[key];     
@@ -26,9 +30,17 @@ public static class RecycleableDatabase
             }
 
         }
-        //public static void build()
-        //{
-           
-        //}
+
+        public static List<string> getKeys()
+        {
+            ICollection stepOne =  Database.Keys;
+            List<string> keys = new List<string>();
+            foreach(var i in stepOne)
+            {
+                keys.Add(i.ToString());
+            }
+            return keys;
+        }
+        
 
 }
