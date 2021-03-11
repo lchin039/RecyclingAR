@@ -8,19 +8,6 @@ public class InputToText : MonoBehaviour
 {
     public InputField SearchItem;
     public Text output;
-    public Dropdown listofChoices;
-    private List<Dropdown.OptionData> listoptions;
-    private List<string> keys;
-
-    /*
-    Laura Chin
-    void -> void
-    creates the database when the project first starts
-    */
-    private void Start() {
-        RecycleableDatabase.create();
-        keys = RecycleableDatabase.getKeys(); //Creates a list of all keys in database
-    }
 
     /*
     Laura Chin
@@ -46,7 +33,7 @@ public class InputToText : MonoBehaviour
         string destination;
         Recycleable item = RecycleableDatabase.Search(thing);
 
-        if(item != null)
+        if(item != null && item.CanRecycle() == true)
         {
             destination = item.GetScene();
             isRecycleable = "";
@@ -63,34 +50,6 @@ public class InputToText : MonoBehaviour
         }
 
         return isRecycleable;
-    }
-    //Try to make something that will list out possible choices from the database
-    public void guessItem()
-    {
-        int length;
-        string Item = SearchItem.text;
-        Item.ToLower().Trim();
-        length = Item.Length; 
-        List<string> things = new List<string>();
-        foreach(string i in keys)
-        {
-            if(i.Contains(Item))
-            {
-                things.Add(i);
-            }
-        }
-
-        if(things.Count > 0)
-        {
-            string outPutText = "";
-            foreach(string i in things)
-            {
-                outPutText = outPutText + i + System.Environment.NewLine;
-            }
-            output.text = outPutText;
-
-        }
-
     }
 
 }
