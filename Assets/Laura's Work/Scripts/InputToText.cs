@@ -46,6 +46,8 @@ public class InputToText : MonoBehaviour
         string destination;
         Recycleable item = RecycleableDatabase.Search(thing);
 
+
+
         if(item != null)
         {
             destination = item.GetScene();
