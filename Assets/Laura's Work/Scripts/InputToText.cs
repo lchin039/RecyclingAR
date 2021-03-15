@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -89,6 +89,10 @@ public class InputToText : MonoBehaviour
             }
             output.text = outPutText;
 
+        }
+        if(length <1)
+        {
+            output.text = "";
         }
 
     }
