@@ -89,6 +89,24 @@ public class ChangeScene : MonoBehaviour
         Go(place);
     }
 
+    public void toPlasticsBottle()
+    {
+        string place = "Plastics Bottle";
+        Go(place);
+    }
+
+    public void toPlasticsContainer()
+    {
+        string place = "Plastics Container";
+        Go(place);
+    }
+
+    public void toPlasticsOther()
+    {
+        string place = "Plastics Other";
+        Go(place);
+    }
+
     public void Go (string place) 
     {
         SceneManager.LoadScene(place);

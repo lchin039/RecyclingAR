@@ -47,4 +47,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Laura's Work/App Scenes/Cardboard.unity
     guid: a38d33300b70a7a4dba70389ee3ed373
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Plastics Bottle.unity
+    guid: 398ebf3726e1ed84f884d5734782ea4b
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Plastics Container.unity
+    guid: c9c8924e81f1d61478aab1257afd3b7a
+  - enabled: 1
+    path: Assets/Laura's Work/App Scenes/Plastics Other.unity
+    guid: 7eaa54d2db580a24e9fc203de0f63339
   m_configObjects: {}
