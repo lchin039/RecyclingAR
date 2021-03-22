@@ -26,5 +26,10 @@ public class Websites : MonoBehaviour
         Application.OpenURL("https://www.terracycle.com/en-CA/");
     }
 
+    public void GlobalNews()
+    {
+        Application.OpenURL("https://globalnews.ca/tag/recycling-in-canada/");
+    }
+
 
 }
