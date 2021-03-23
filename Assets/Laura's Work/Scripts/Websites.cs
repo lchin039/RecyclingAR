@@ -8,7 +8,7 @@ public class Websites : MonoBehaviour
 
     public static void OurSite()
     {
-        Application.OpenURL("https://shair086.wixsite.com/areyourecycling");
+        Application.OpenURL("shair086.wixsite.com/areyourecycling");
     }
 
     public void uOttawa()
