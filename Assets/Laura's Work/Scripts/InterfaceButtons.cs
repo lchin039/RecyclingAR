@@ -14,4 +14,9 @@ public class InterfaceButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Unity Project Save 2");
     }
+
+    public void toLearning()
+    {
+        SceneManager.LoadScene("Learning");
+    }
 }
