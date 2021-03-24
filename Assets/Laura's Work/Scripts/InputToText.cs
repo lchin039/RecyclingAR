@@ -41,7 +41,7 @@ public class InputToText : MonoBehaviour
     */
     public static string IsRecycleable(string name)
     {
-        string isRecycleable = "Item is NOT recycleable"; 
+        string isRecycleable = "Item not found in database. Please use the writing below to help guide your inquiries"; 
         string thing = name.ToLower();
         string destination;
         Recycleable item = RecycleableDatabase.Search(thing);
@@ -66,36 +66,55 @@ public class InputToText : MonoBehaviour
 
         return isRecycleable;
     }
-    //Try to make something that will list out possible choices from the database
+    /*Try to make something that will list out possible choices from the database
+    Only begins after 2 letters are typed into the button
+    */
     public void guessItem()
     {
         int length;
+        string outPutText = "";
         string Item = SearchItem.text;
         Item.ToLower().Trim();
         length = Item.Length; 
         List<string> things = new List<string>();
-        foreach(string i in keys)
+
+        if (length>1)
+        {
+            foreach (string i in keys)
+            {
+                if (i.Contains(Item))
+                {
+                    things.Add(i);
+                }
+            }
+        }
+        /*foreach(string i in keys)
         {
             if(i.Contains(Item))
             {
                 things.Add(i);
             }
         }
+        */
 
         if(things.Count > 0)
         {
-            string outPutText = "";
+            //string outPutText = "";
             foreach(string i in things)
             {
                 outPutText = outPutText + i + System.Environment.NewLine;
             }
-            output.text = outPutText;
+            //output.text = outPutText;
 
         }
-        if(length <1)
+        output.text = outPutText;
+
+        /*if(length <1)
         {
             output.text = "";
         }
+        */
+        
 
     }
 
