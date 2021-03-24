@@ -19,4 +19,9 @@ public class InterfaceButtons : MonoBehaviour
     {
         SceneManager.LoadScene("Learning");
     }
+
+    public void toARCamera()
+    {
+        SceneManager.LoadScene("AR Camera");
+    }
 }

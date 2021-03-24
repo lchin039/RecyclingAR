@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Laura's Work/App Scenes/Learning.unity
     guid: ebaa3f230d7170d4e827678da269c604
+  - enabled: 1
+    path: Assets/Scenes/AR Camera.unity
+    guid: 262b2bbf0ac0d104084b29ab2f3aa088
   m_configObjects: {}
