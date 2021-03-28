@@ -77,9 +77,9 @@ public static class RecycleableItems
         Recycleable plasticplantingtray = new Recycleable ("plastic planting tray", true, "Blue Bin");
         Database.Add("plastic planting tray", plasticplantingtray); 
         Recycleable plastictuplid = new Recycleable("plastic tub lid", true, "Blue Bin");
-        Database.Add("plastic tub lid", plastictuplid); 
+        Database.Add("plastic cihp tube", plastictuplid); 
         Recycleable potatochiptub = new Recycleable("potato chip tub", true, "Blue Bin");
-        Database.Add("potato tub lid", potatochiptub);
+        Database.Add("potato chip tube", potatochiptub);
         Recycleable yogurt = new Recycleable("yogurt contianer", true, "Blue Bin");
         Database.Add("yogurt container", yogurt);
         Recycleable can = new Recycleable("pop can", true, "Blue Bin");
