@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="METAL_CAN_BAR_CODE" size="1.000000 0.719828" />
+    <ImageTarget name="BAR_CODE_BAKING_POWDER_CONTAINER" size="1.000000 1.363473" />
+    <ImageTarget name="TEXTBOOK" size="1.000000 0.647789" />
+    <ImageTarget name="KLEENEX_BOX" size="1.000000 0.823308" />
     <ImageTarget name="GarbageCode1" size="1.000000 0.481393" />
     <ImageTarget name="GoldFishBox1" size="1.000000 0.678468" />
     <ImageTarget name="BublyCanCode" size="1.000000 1.294118" />
