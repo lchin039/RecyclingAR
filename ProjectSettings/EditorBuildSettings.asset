@@ -6,54 +6,54 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Unity Project Save 2.unity
+    path: Assets/Group 11 Work/App Scenes/Unity Project Save 2.unity
     guid: dbe1ad8d1ad3fba41937d7348669f1f6
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Manual Search Screen.unity
+    path: Assets/Group 11 Work/App Scenes/Manual Search Screen.unity
     guid: 307c23f713d9fd34eb7e408beecebde9
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Blue Bin.unity
+    path: Assets/Group 11 Work/App Scenes/Blue Bin.unity
     guid: 91cf65ffe0802124aa78cfcf6e01fe6d
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Black Bin.unity
+    path: Assets/Group 11 Work/App Scenes/Black Bin.unity
     guid: d9a3bcf32c7e9a349851b9a1eac890fb
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Green Bin.unity
+    path: Assets/Group 11 Work/App Scenes/Green Bin.unity
     guid: 277910e73a2dafc47b970e15e0016196
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Garbage.unity
+    path: Assets/Group 11 Work/App Scenes/Garbage.unity
     guid: 76bb9fadf344dc349bbc0136cff13864
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Glass.unity
+    path: Assets/Group 11 Work/App Scenes/Glass.unity
     guid: 19d7d0db03c6510429ce2d66be498bb2
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Metal.unity
+    path: Assets/Group 11 Work/App Scenes/Metal.unity
     guid: b0949b9553630094c8f5ea15304e5c15
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Plastics.unity
+    path: Assets/Group 11 Work/App Scenes/Plastics.unity
     guid: 653e8e5e576789849a18d4331a95874e
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Paper.unity
+    path: Assets/Group 11 Work/App Scenes/Paper.unity
     guid: b8a7d769face6e147bafe5700f90b745
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Carton.unity
+    path: Assets/Group 11 Work/App Scenes/Carton.unity
     guid: 13847418ff590a740a74dac9b0a51257
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Cardboard.unity
+    path: Assets/Group 11 Work/App Scenes/Cardboard.unity
     guid: a38d33300b70a7a4dba70389ee3ed373
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Plastics Bottle.unity
+    path: Assets/Group 11 Work/App Scenes/Plastics Bottle.unity
     guid: 398ebf3726e1ed84f884d5734782ea4b
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Plastics Container.unity
+    path: Assets/Group 11 Work/App Scenes/Plastics Container.unity
     guid: c9c8924e81f1d61478aab1257afd3b7a
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Plastics Other.unity
+    path: Assets/Group 11 Work/App Scenes/Plastics Other.unity
     guid: 7eaa54d2db580a24e9fc203de0f63339
   - enabled: 1
-    path: Assets/Laura's Work/App Scenes/Learning.unity
+    path: Assets/Group 11 Work/App Scenes/Learning.unity
     guid: ebaa3f230d7170d4e827678da269c604
   - enabled: 1
-    path: Assets/Scenes/AR Camera.unity
+    path: Assets/Group 11 Work/App Scenes/AR Camera.unity
     guid: 262b2bbf0ac0d104084b29ab2f3aa088
   m_configObjects: {}
