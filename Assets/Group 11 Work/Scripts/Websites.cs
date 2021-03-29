@@ -31,5 +31,10 @@ public class Websites : MonoBehaviour
         Application.OpenURL("https://globalnews.ca/tag/recycling-in-canada/");
     }
 
+    public void ContactUs()
+    {
+        Application.OpenURL("ehareyourecyclingteam@gmail.com");
+    }
+
 
 }
